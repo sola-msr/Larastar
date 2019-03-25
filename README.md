@@ -2,6 +2,8 @@
 プロジェクトごとにLaravelやらHomesteadをインストールする際のコマンドを自動的に実行するように処理をつらつら書いたバッチです。  
 デフォルトのインストールバージョンは5.5系（LTS）の最新です。
 
+詳しくは以下の記事をご覧ください。  
+[【Laravel】ワンアクションでプロジェクト毎にLaravelとHomesteadをインストールしてくれる「Larastar」 - Qiita](https://qiita.com/sola-msr/items/5f6df1d94224fcc37a45)
 
 # ファイル構成
 ## larastar.php
@@ -18,3 +20,7 @@ Windows用batfileです。「larastar.php」と同じ場所に置いて実行す
 ※Windowsの場合は付属の「larastar_launcher.bat」をクリックで自動的に起動します。
 - ③勝手にLaravelやらHomesteadのインストールが始まります。
 - ④「ララスター☆彡（larastar.php）」が終了した後に「Homestead.yaml」内のパスを書き換えて、「vagrant reload」を行えば完了です。
+
+# License
+
+This software is released under the MIT License, see LICENSE.
